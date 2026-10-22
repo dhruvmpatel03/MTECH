@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --main-color: #8e44ad;
+    --black: #222;
+    --white: #fff;
+    --light-black: #777;
+    --light-white: #fff9;
+    --dark-bg: rgba(0, 0, 0, .7);
+    --light-bg: #eee;
+    --border: .1rem solid var(--black);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --text-shadow: 0 1.5rem 3rem rgba(0, 0, 0, .3);
+}
+
+* {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add_tour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    background: var(--light-bg);
+    padding: 2rem;
+}
+
+.add_tour .add_tour-container {
+    width: 85%;
+    padding: 1.8rem;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border-radius: 1rem;
+}
+
+.add_tour .add_tour-container .inputBox {
+    margin-bottom: 1.2rem;
+}
+
+.add_tour .add_tour-container .inputBox span {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--light-black);
+    margin-bottom: .5rem;
+}
+
+.add_tour .add_tour-container .inputBox input,
+.add_tour .add_tour-container .inputBox textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+    color: var(--light-black);
+    border: var(--border);
+    border-radius: .5rem;
+}
+
+.add_tour .add_tour-container .inputBox input:focus,
+.add_tour .add_tour-container .inputBox textarea:focus {
+    background: var(--black);
+    color: var(--white);
+}
+
+.add_tour .add_tour-container .btn {
+    width: 100%;
+    background: var(--main-color);
+    color: var(--white);
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    transition: background .3s;
+}
+
+.add_tour .add_tour-container .btn:hover {
+    background: var(--black);
+}

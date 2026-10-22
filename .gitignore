@@ -1,0 +1,9 @@
+node_modules/
+build/
+.dart_tool/
+.gradle/
+venv/
+__pycache__/
+.idea/
+*.apk
+Thumbs.db
