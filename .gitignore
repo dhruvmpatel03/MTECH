@@ -7,3 +7,5 @@ __pycache__/
 .idea/
 *.apk
 Thumbs.db
+
+Fraud_Detaction/creditcard.csv
